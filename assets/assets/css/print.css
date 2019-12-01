@@ -1,0 +1,374 @@
+h1,h2,ul,ins{margin:0px;padding:0px;border: 0px;text-decoration:none;}
+html { overflow-y: scroll; }
+
+/* body stuff */
+body {
+	font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,Verdana,Sans-Serif;
+	color: #333;
+	cursor: default;
+}
+#print_logo{
+	display: relative;
+}
+/* set some wrapper values */
+#wrapper{
+	margin: 0 auto 0 auto;
+}
+#print_header{
+	display: relative;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: arial, verdana, sans-serif;
+}
+
+.preload_images{
+	display:none;
+}
+.no_print{
+	display: none;	
+}
+#columns .column{
+	margin: 0px;
+	min-height: 36px; /* set a min-height to ensure a target dropzone ... 35px for name only */
+}
+#columns .unplaced{
+	min-height: 950px; /* set a min-height to ensure a target dropzone ... 35px for name only */
+	display: none;
+}
+#house{
+	width: 215px;
+	padding-left: 3px;
+	padding-right: 3px;
+	float: left;
+}
+.beds_wrapper{
+	background-image:url(/images/pixel_70.png);
+	background-repeat:repeat;
+}
+.bed_num{
+	position: absolute;
+	left: 0px;
+	top: 3px;
+}
+#dorm_num{
+	width: 225px;
+	float: left;
+	text-align: right;
+}
+#columns .rockbridge{
+	width: 215px;
+	float: left;
+}
+#columns .stephenson{
+	width: 215px;
+	float: left;
+}
+#columns .stonemountain{
+	width: 215px;
+	float: left;
+}
+#columns .unplaced{
+	min-width: 1px;
+	float: left;
+}
+.block .draghandle{
+	cursor: move;
+}
+/* all columns */
+#columns .rockbridge div, #columns .stephenson div, #columns .stonemountain div, #columns .unplaced div{
+	border: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	margin-left: 30px;
+}
+#columns .unplaced div{
+	margin-left: 5px;
+}
+.student_info{
+	font-weight: normal;
+	font-size: 9px;
+	font-family: Verdana, Arial, Geneva, sans-serif
+}
+#columns .rockbridge div h1, #columns .stephenson div h1, #columns .stonemountain div h1, #columns .unplaced div h1{
+	font-size: 12px;
+	padding: 2px;
+}
+#columns .rockbridge div p, #columns .stephenson div p, #columns .stonemountain div p, #columns .unplaced div p{
+	font-size: 11px;
+	padding: 7px;
+}
+#columns .rockbridge, #columns .stephenson, #columns .stonemountain{
+	border: none;
+	border-color: transparent;
+	padding: 3px;
+}
+#columns .unplaced{
+	border: 2px solid;
+	border-color: transparent;
+	padding: 3px;
+	display: none;
+}
+#columns .target {
+	padding: 3px;
+	border: 2px dashed #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: none;
+}
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------->
+
+h1, h2, h3, h4, h5 h6 {
+	size: 24px;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 0;
+	font-family: verdana, arial;
+	font-weight: bold;
+	color: #434343;
+}
+body{
+	color: #000000;
+	font-size: small;
+	font-family: arial, verdana, sans-serif;
+	padding-bottom: 30px;
+}
+body{
+	margin: 0px;
+}
+a{
+      border:none;
+      outline:none;}
+a:link{
+	color: #0066ff;
+	font-weight: bold;
+	text-decoration: none; }
+a:visited{
+	color: #0066ff;
+	font-weight: bold;
+	text-decoration: none; }
+a:hover{
+	color: #0066ff;
+	font-weight: bold;
+	text-decoration: underline; }
+#content {
+	position: relative;
+	text-align: left;
+	z-index: 2;
+}
+#header {
+	position: relative;
+	left: 4px;
+	top: 4px;
+	z-index:100;
+	width: 100px;
+	height: 92px;
+}
+#calendar {
+	position: fixed;
+	right: 2px;
+	top: 2px;
+	z-index: 4;
+	display: none;
+}
+.logout {
+	padding-left: 25px;
+	padding-top: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-align:center;
+	display: none;
+}
+.chatbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+	z-index: 998;
+	display: none;
+}
+.chatboxhead {
+	background-color: #12cb1a;
+	padding:7px;
+	color: #ffffff;
+	font-family: verdana,arial,sans-serif;
+	font-size: 9px;
+	border-right:1px solid #12cb1a;
+	border-left:1px solid #12cb1a;
+	display: none;
+}
+
+.chatboxblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+	display: none;
+}
+
+.chatboxcontent {
+	font-family: verdana,arial,sans-serif;
+	font-size: 9px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+	display: none;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	display: none;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #eeeeee;
+	margin: 1px;
+	overflow:hidden;
+	font-family: verdana,arial,sans-serif;
+	font-size: 12px;
+	display: none;
+}
+
+.chatboxtextareaselected {
+	border: 2px solid #12cb1a;
+	margin:0;
+	display: none;
+}
+
+.chatboxmessage {
+	margin-left:1em;
+	display: none;
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#999999;
+	display: none;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+	display: none;
+}
+
+.chatboxoptions {
+	float: right;
+	display: none;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	display: none;
+}
+
+.chatboxtitle {
+	float: left;
+	display: none;
+}
+
+#chatusers {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 33px;
+	height: 33px;
+	z-index: 999;
+	display: none;
+}
+
+#chatshowusers {
+	position: relative;
+	padding: 8px;
+	font-family: verdana,arial,sans-serif;
+	font-size: 9px;
+	border-color: #12cb1a;
+	border-width: 1px;
+	border-style:solid;
+	color: #0066ff;
+	font-weight: bold;
+	background-image:url(/images/pixel_chat.png);
+	background-repeat: repeat;
+	line-height:14px;
+	display: none;
+}
+
+#chatshowusers a {
+	color: #0066ff;
+	text-decoration: none;
+	font-weight: normal;
+	display: none;
+}
+
+#chatshowusers a:hover {
+	text-decoration: underline;
+	display: none;
+}
+
+#chatshowusersoff {
+	color: #5a5a5a;
+	font-weight: bold;
+	display: none;
+}
+
+#chatshowusersoff a {
+	text-decoration: none;
+	color: #5a5a5a;
+	font-weight: normal;
+	display: none;
+}
+
+#chatshowusersoff a:hover {
+	text-decoration: underline;
+	display: none;
+}
+
+#chaticon {
+	position: relative;
+	width: 33px;
+	height: 33px;
+	background-image:url(/images/chat.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+
+#chatnumusers {
+	position: relative;
+	top: 9px;
+	left: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #0080f5;
+	z-index: 1;
+	display: none;
+}
+
+#chatnumusers a:hover {
+	text-decoration: none;
+	display: none;
+}

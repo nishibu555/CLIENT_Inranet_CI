@@ -1,0 +1,1098 @@
+
+body{
+    background-color: whitesmoke;
+    color: #0f3a64;
+    font-family: arial;
+}
+header{
+    margin-bottom: 30px;
+}
+header .top_header_shadow{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border-bottom: 1px solid #6b6b6b;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.16);
+}
+header .top-header{
+    padding: 15px 0px;
+    text-align: right;
+}
+header .top-header form{
+    width: 320px;
+    margin: 0px;
+    display: inline-block;
+}
+header .top-header form .search{
+    width: 210px;
+    display: inline-block;
+    border:1px solid #686868;
+    line-height: 30px;
+    margin-right: 10px;
+}
+header .top-header ul{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+header .top-header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+
+}
+header .top-header ul li.magges_menu img{
+    margin-top: -4px;
+}
+header .top-header ul li a{
+    color: #145C7F;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+header .top-header ul li a:hover{
+    text-decoration: none;
+}
+header .top-header ul li a i{
+    margin-right: 6px;
+    color: #636363;
+    font-size: 18px;
+}
+.int_btn{
+    width: 80px;
+    border: none;
+    background: none;
+    font-size: 13px;
+    padding: 0px;
+    margin-left: -12px;
+    color: #145C7F;
+}
+header .top-header form .fas{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #636363;
+    font-size: 18px;
+}
+header .init_menu{
+    background: #fff;
+    border-bottom: 1px solid #636363;
+    padding: 15px 0px;
+    box-shadow: 0px 7px 7px -7px #7b7b7b;
+}
+.navbar-brand img{
+    width: 200px;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.mr-l-100{
+    margin-left: 100px;
+}
+header .init_menu .nav-link{
+    color: #145C7F !important;
+    font-weight: 600;
+}
+footer{
+    padding: 30px 0px;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+    color: #0f3a64;
+}
+
+footer a{
+    font-size: 16px;
+    color: #0f3a64;
+    font-weight: bold;
+}
+/* Mobile Styles */
+
+@media only screen and (min-width: 992px) {
+    .top_menu_responsive{
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .top_header_shadow
+    {
+        display: none;
+    }
+    .top_menu_responsive{
+        display: block;
+    }
+}
+
+.side_div1 i{
+    font-size: 125px;
+    color: #777777;
+    padding: 60px 0px;
+}
+.record_lists {
+    margin-top: 20px;
+}
+.record_padding{
+    padding-left: 30px;
+}
+.record_lists ul{
+    padding: 0px;
+    margin: 0px;
+}
+.record_lists ul li {
+    list-style: none;
+}
+.record_lists ul li a{
+    color: #145C7F;
+    line-height: 30px;
+    font-size: 18px;
+}
+.board-list{
+    margin-bottom: 20px;
+}
+.board-list .content{
+    text-align: center;
+}
+.board-list .dashboard-icon{
+    border: 1px solid #98A2A5;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.board-list i{
+    font-size: 130px;
+    padding: 20px 0px;
+    color: #235c77;
+}
+.board-list .content ul{
+    margin: 0px;
+    padding: 0px;
+}
+.board-list .content ul li{
+    list-style: none;
+    display: inline-block;
+    color: #145C7F;
+    }.board-list .content ul li span{
+     color: #145C7F;
+     font-size: 15px;
+     font-weight: 500;
+ }
+ .board-list ul li a{
+    color: #145C7F;
+    font-size: 14px;
+}
+.board-list .content h3{
+    color: #145C7F;
+}
+
+.msg{
+    text-transform: capitalize;
+}
+
+
+.login-form{
+    width: 100%;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.16);
+    border: 1px solid #616161;
+    max-width: 500px;
+}
+.ss_intranet_h{
+    border-bottom: 1px solid #0f3a64;
+    text-transform: uppercase;
+    color: #0f3a64;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.login-form .login-logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.login-form .form{
+    width: 80%;
+    margin: auto;
+}
+.login-form .input-filed{
+    border-radius: 0px;
+}
+.login-form .form-label{
+    margin-left: 25px;
+    font-size: 21px;
+    color: #145C7F;
+    font-weight: bold;
+}
+.login-form #password{
+
+    width: 100%;
+    border:1px solid #616161;
+    border-radius: 0px;
+    padding: 4px;
+    margin-bottom: 25px;
+}
+.login-form #identity{
+    width: 100%;
+    border:1px solid #616161;
+    border-radius: 0px;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+.login-form input[type=submit] {
+    width: 100%;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 21px;
+    color: #fff;
+    padding: 10px 0px;
+    line-height: 30px;
+}
+.login-form .form p{
+    font-size: 12px;
+    text-align: center;
+    color: #145C7F;
+}
+.login-form footer p{
+    font-size: 12px;
+    padding: 0px 15px;
+}
+.login-form footer a{
+    font-size: 12px;
+    font-weight: bold;
+}
+.login-form .login-btn{
+    width: 100%;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 21px;
+}
+.student_academic .table th{
+    border: none;
+    color:#2b78c2;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial;
+}
+.student_academic .table td{
+    border: none;
+    color:#3b4552;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+.table_title {
+    width: 100%;
+    border-bottom: 1px solid #3d3d3d;
+}
+.table_title h5{
+    color: #3d3d3d;
+    font-size: 21px;
+    font-family:Arial;
+}
+.student_academic_history{
+    width: 100%;
+}
+.table_title h5{
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.student_academic .table td img{
+    width: 40px;
+    float: left;
+}
+.student_academic .table ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-grid;
+}
+.student_academic .table ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+.student_academic .table ul li p{
+    margin: 0px;
+    font-size: 12px;
+    color: #3b4552;
+    font-weight: bold;
+}
+.student_academic .table ul li .std_name{
+    margin: 0px;
+    font-size: 12px;
+    color: #3b4552;
+    font-weight: normal;
+}
+.student_academic .table ul li .std-contract{
+    margin: 0px;
+    font-size: 10px;
+    color: #2b78c2;
+    font-weight: normal;
+}
+.score-btn{
+    width: 200px;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+}
+.contract-btn{
+    width: 200px;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 21px;
+}
+.new-contract{
+    text-align: right;
+    margin: 20px 0px;
+
+}
+.new-contract a{
+  font-weight: bold;  
+}
+.course-select {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.course-select label{
+    color:#2b78c2;
+    font-size:11px;
+    font-weight: normal;
+}
+.student_name{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3b4552;
+}
+.course-select select{
+    border: 1px solid black;
+    border-radius: 0px;
+    color:#0f3a64;
+    font-size: 18px;
+    font-family: Arial;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.activity_log{
+
+    margin-top: 110px;
+}
+.activity_log label{
+    color:#2b78c2;
+    font-size: 15px;
+    font-family: Arial;
+    }.activity_log select{
+     border:1px solid #6d6d6d;
+     border-radius: 0px;
+     color: #0f3a64;
+     font-weight: normal;
+     font-family: Arial;
+     font-size: 18px;
+ }
+ .activity-content{
+    border-bottom: 1px solid #3d3d3d;
+    margin-bottom: 15px;
+}
+.activity-content p{
+    color: #3d3d3d;
+    font-size: 14px;
+    font-family: Arial;
+}
+.activity-content a{
+    color: #2b78c2;
+    font-family: Arial;
+    font-size: 14px;
+}
+.student_activity_log .table_title
+{
+    width: 100%;
+    border-bottom: 1px solid #3d3d3d;
+}
+.student_activity_log .table_title h5{
+    color: #3d3d3d;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+.input-border {
+    border: 1px solid #707070;
+    border-radius: 0px;
+}
+.resize{
+    resize: none;
+}
+.mr-t-10{
+    margin-top: 10px;
+}
+.mr-b-10{
+    border-bottom: 10px;
+}
+
+.list_details{
+    background: #fff;
+    padding: 30px;
+    border: 1px solid black;
+}
+.list_details p{
+    margin: 0px;
+    color: #2b78c2;
+    font-size: 14.25px;
+    font-family: Arial;
+}
+.list_details ul {
+    padding: 0px;
+    margin: 0px;
+}
+.list_details ul li{
+    list-style: none;
+}
+.list_details ul li a{
+    color: #2b78c2;
+    font-size: 14.25px;
+    font-family: Arial;
+}
+.list_details ul li a:hover{
+    text-decoration: none;
+}
+.activity-content .content_label label{
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: normal;
+}
+.content_complete{
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #6d6d6d;
+}
+.content_complete p{
+    font-size: 21px;
+    font-weight: normal;
+    color: #3b4552;
+    font-family: Arial;
+}
+.content_complete p span{
+    font-weight: bold;
+}
+.gsnc-test-score {
+    margin-top: 40px;
+}
+.gsnc-test-score h3{
+    font-size: 21px;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+.gsnc-test-score .table th{
+    border:none;
+    color: #2b78c2;
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.gsnc-test-score .table td{
+    border:none;
+    color: #3b4552;
+    font-size: 12px;
+    font-family: Arial;
+
+}
+.gsnc-test-score .table td a{
+  font-weight: bold;
+}
+
+.std_name{
+    color: #3b4552;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.student_contract .common-style-p{
+    font-size: 12px;
+    color: #3b4552;
+    margin: 0px;
+}
+.student_contract .table td{
+    font-size: 15px;
+    color: #3b4552;
+}
+.student_contract .table td p{
+    font-size: 12px;
+    color: #949494;
+    margin: 0px;
+    }.student_contract .table td h3{
+        font-size: 20px;
+        color: #3b4552;
+        margin: 0px;
+    }
+    .contract-btn {
+     background-color: #0f3a64;
+     border: none;
+     border-radius: 0px;
+     font-size: 15px!important;
+ }
+
+ /*nishi*/
+
+ /*change start*/
+
+ /*student manager and detail side design*/
+ .side_div1{
+    border: 1px solid #98A2A5;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #fff;
+}
+.side_div1 p{
+    color: white;
+    padding: 20px 0px;
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 26px;
+    background-color:  #0f3a64;
+    text-transform: uppercase;
+}
+.side_div1_text{
+  color: #0f3a64; 
+  font-size: 12px; 
+  font-family: Arial
+}
+.side_div2{
+    margin-bottom: 30px;
+    padding: 0% 10%;
+    color:#145C7F;
+}
+.inner_side_div2{
+    text-align: center;
+}
+.inner_side_div2 p{
+    font-size: 15px;
+    font-family: Arial;
+}
+.new_student_form1 input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+select{
+    color: #0f3a64;
+    width: 80%;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Arial;
+}
+.submit_button{
+    width: 100%;
+    color: #ffffff;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 14.14px;
+    font-family: Arial;
+    font-weight:bold;
+    padding: 5px 0px;
+}
+.sub_nav nav ol{
+    background-color: transparent;
+    padding: 0px;
+    margin: 40px 0px;
+}
+.sub_nav nav ol li a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial;
+    color: #0f3a64
+}
+
+
+/* student manager table*/
+.studentTable thead th{
+    font-size: 10.71px;
+    font-family: Arial;
+    text-align: left;
+    padding-left: 0px;
+    color: #2b78c2
+}
+.studentTable tbody td{
+    padding-top: 10px;
+    font-size: 10.71px;
+    color: #3b4552;
+}
+.studentTable tbody td ul{
+    margin: 0px;
+    padding:0px;
+}
+.studentTable tbody td ul li{
+    font-size: 10px;
+    color:  #2b78c2;
+}
+.studentTable tbody td p{
+    font-size: 12px;
+    padding: 0px;
+    color: #3b4552;
+}
+.studentTable tbody td small{
+    color: #289DD3
+}
+
+
+/* student detail*/
+.student_detail_title p{
+    width: 40%;
+    border-bottom: 1px solid #3b4552;
+    color: #3b4552;
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: 550;
+    font-weight: 550;
+}
+.student_detail_title2 p{
+    width: 90%;
+    border-bottom: 1px solid #3b4552;
+    color: #3b4552;
+    font-size: 21px;
+    font-family: Arial;  
+}
+.student_detail_subtitle1 p{
+    padding-top: 20px;
+    color: #3d3d3d;
+    font-family: Arial;
+    font-size: 14.71px;
+}
+.student_detail_subtitle p{
+    padding-top: 20px;
+    color: #3d3d3d;
+    font-family: Arial;
+    font-weight:bold;
+    font-weight: 550;
+    font-size: 16.71px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #3d3d3d;
+}
+.student_detail_description p{
+  font-size: 14px;
+  font-family: Arial Narrow;
+  color: #3d3d3d;
+}
+.profile_info small{
+    font-size: 12px;
+    color: #2b78c2;
+    font-family: Arial;
+    font-weight:bold;
+}
+.profile_info span{
+  font-size: 12px;
+  font-family: Arial;
+  font-weight:bold;
+  color: #3b4552
+}
+small{
+    color:gray ;
+    font-weight: 550;
+}
+/*change........end*/
+
+
+/*student registration form---*/
+.reg_form_title{
+    color: #be6106;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+}
+.reg_form_pagination{
+    color: #be6106;
+    margin-top: 10px;
+    float: right;
+}
+.reg_form_pagination span{
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+.reg_form_footer div{
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+.reg_form_content_row{
+    margin: 10px 5px;
+    border-bottom: 1px solid #be6106;
+    padding-bottom: 10px;
+}
+.reg_form_content_row_last{
+    margin: 10px 5px;
+    padding-bottom: 10px;
+}
+.reg_form_content_row span, .reg_form_content_row_last span{
+    color: #2b78cb;
+    font-weight: 600;
+    font-size: 16px;
+}
+.form-group {
+    margin-bottom: 10px !important;
+    align-items: center;
+
+}
+.registration-form form label{
+    text-align: right;
+    font-size: 16px !important;
+    padding: 0px !important;
+}
+.registration-form form .form-check-label{
+    text-align: left;
+    font-size: 14px !important;
+    padding: 0px !important;
+    color: #000;
+}
+.registration-form form .form-control {
+    padding: 0px 0px !important;
+    height: fit-content !important;
+    border-radius: 0px !important;
+    border: 1px solid #cc6600!important;
+    background-color: #f2ec9e;
+    width: 90% !important;
+}
+/*responsive */
+@media screen and (max-width: 580px) {
+    .registration-form form label{
+        text-align: left;
+        padding-left: 15px  !important;
+    }
+    .registration-form form .form-control {
+        padding: 0px 0px !important;
+        height: fit-content !important;
+        border-radius: 0px !important;
+        border: 1px solid #cc6600!important;
+        background-color: #f2ec9e;
+        width: 100% !important;
+    }
+}
+.reg_form_submit_div{
+    text-align: center;
+    margin-top: 50px;
+} 
+.reg_form_submit_div button{
+ background-color: #0f3a64;
+ padding: 20px 50px;
+ font-size:17px;
+ font-weight: bold;
+ border:none;
+ color: #fff;
+}
+.reg_form_submit_button span{
+    font-size: 13px;
+    color: #be6106;
+    padding: 5px
+}
+/*reg form 2*/
+.family_member_section{
+    margin-bottom: 15px;
+}
+.form_hint{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+    color: black;
+}
+.form_hint p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f3a64;
+}
+.reg_form_footer{
+    margin-top: 20px;
+}
+
+/* form 3*/
+.children_section{
+    margin-bottom: 30px;
+}
+
+/* form 5*/
+.life_event_sub_title{
+    text-align: center;
+    font-weight: 550;
+}
+.skill_type{
+    margin: 20px 0px;
+}
+
+
+/* form 6*/
+.recent_job_list{
+    margin-bottom: 20px;
+}
+.medical_history{
+    margin-bottom: 20px;
+}
+
+.development_plan{
+    margin-top: 20px;
+}
+.development_plan .dev_plan_table tr th{
+    border-top: 0px !important;
+}
+
+.descipline_detail_notes span{
+   font-family: Arial;
+   color: #3b4552;
+   font-weight: 550;
+}
+.descipline_detail_notes p{
+   font-family: Arial;
+   color: #3b4552;
+   margin-top:5px 
+}
+.custom_button{
+    width: 100%;
+    color: #ffffff;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 14.14px;
+    font-family: Arial;
+    font-weight:bold;
+    padding: 5px 20px;
+}
+
+/*ss css*/
+
+.ss_apply{
+    display: inline-block;
+    font-size: 45px;
+    color: #0f3a64;
+    font-family: 'Fjalla One', sans-serif;
+}
+.ss_form_heading{
+    color: #3394f3;
+    font-size: 16px;
+    font-weight: bold;
+}
+.registration-form form label{
+    color: #3e3e3e;
+    font-size: 14px !important
+}
+.reg_form_content_row span, .reg_form_content_row_last span{ 
+ color: #2b78cb;
+}
+.registration-form form .form-control{
+   border: 1px solid #2b78cb!important;
+   background-color: #ffffff;
+}
+.reg_form_content_row { 
+    border-bottom: 1px solid #3394f3 !important; 
+}
+.headingside_div1 h5{
+    color: white;
+    padding: 10px 0px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #0f3a64;
+}
+.headingside_div1 i{
+    font-size: 28px;
+    color: #2b78c2;
+    padding: 0;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    border: solid #707070 1px !important;
+    border-radius: 0 !important;
+}
+.select2-container--default .select2-selection--multiple{
+ border: solid #707070 1px !important;
+ border-radius: 0 !important; 
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "|";
+}
+.breadcrumb li{
+       font-size:14px; 
+       color: #0f3a64;
+}
+.breadcrumb-item.active{
+    font-size:14px;
+    color:#0f3a64;
+    cursor: initial;
+}
+ 
+
+/*responsive */
+@media screen and (max-width: 767px) {
+    .ss_apply{ 
+        font-size: 25px;
+        margin-top: 20px;
+
+    }
+}
+.main_col3 h1{
+position: absolute;
+width: 10%;
+float: left;
+font-weight: 800;
+padding: 20px 0px;
+font-size: 30px;
+}
+.main_col3 .bed-assignment-item{
+	position: relative;
+    width: 90%;
+    float: right;
+}
+
+
+/*settings page css*/
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+.col-md-12.user_form{
+ 
+}
+.col-md-12.user_form input{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #0f3a642b;
+    border-radius: 0px;
+}
+.col-md-12.user_form label{
+  font-weight: 600;
+}
+.col-md-12.user_form input[type="submit"] {
+    background: #0f3a64;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 15px;
+}
+.col-md-12.user_form input[type="submit"]:hover {
+    background: #163350;
+}
+.col-md-12.user_form div#infoMessage {
+    color: #f81f1f;
+    text-align: center;
+}
+
+/*//*/
+.dataTables_filter input[type="search"],dataTables_length input[type="search"]{
+       padding: 2px;
+    border: 1px solid #29598894;
+    font-size: 14px;
+}
+.dataTables_filter label,.dataTables_length label {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px
+}
+table.dataTable.no-footer {
+    border-bottom: none !important;
+}
+table.dataTable.no-header {
+    border-bottom: none !important;
+}
+button{
+    font-family: Arial ;
+    font-size: 14px;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+.fa-plus{
+    padding: 5px;
+}
+.dataTables_length label select{
+        color: #0f3a64;
+    width: 30% !important;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+
+.add_church .form-control {
+    padding: 0px 0px !important;
+    height: fit-content !important;
+    border-radius: 0px !important;
+    border: 1px solid #0f3a64!important;
+    background-color: #f5f5f5;
+}
+
+
+
+/*
+office css*/
+.directory_content{
+    background: white;
+    padding: 10px;
+    height: 390px;
+    overflow-y: scroll;
+}
+.directory-item {
+    /* background: red; */
+    padding: 15px;
+    border-bottom: 1px solid #d7d7d79e;
+    color: #4c4c4c;
+}
+.directory-item h1{
+    font-weight: 700;
+    color: #0f3a64;
+}
+#directory  ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff !important
+}
+#directory{
+    background-color: #0f3a64!important;
+    min-height: 80px;
+}
+.scroll_select{background:red}
+#addForm{
+    padding: 16px;
+    background: white;
+    margin: 11px;
+    border: 1px solid #b9b9b9;
+}
+/*
+office css*/
+.upload-btn{
+    width: 80%;
+    background-color: #0f3a64;
+    border: none;
+    border-radius: 0px;
+    font-size: 13px;
+    float: right;
+    font-weight: bold;
+}
+
+.common_table thead th{
+    border: none;
+    color:#2b78c2;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial;
+}
+.common_table td{
+    border: none;
+    color:#3b4552;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial;
+}
